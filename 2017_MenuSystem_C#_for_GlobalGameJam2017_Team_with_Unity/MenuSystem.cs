@@ -171,7 +171,7 @@ public class MenuSystem : MonoBehaviour
         }
     }
 
-    private void StartGameAfterLoad()
+    private void StartGameAfterLoad() // added by someone else!
     {
         if (!levelLoaded.isDone)
             return;
